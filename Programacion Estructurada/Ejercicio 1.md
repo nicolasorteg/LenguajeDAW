@@ -1,8 +1,6 @@
 ### Calcular y mostrar la superficie y el perímetro de un cuadrado cuyo lado se pide por teclado.
 
 ```bash
-
-
 Main {
 
     //declaración de variables
@@ -31,6 +29,4 @@ Main {
 
    writeLine("Fin del programa.");
 }
-
-
 ```
