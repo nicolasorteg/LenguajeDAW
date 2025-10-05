@@ -32,7 +32,7 @@ Main {
             writeLine("Ancho: " + ancho);
         }
 
-    } while (entradaInvalida) // mientras la entrada sea invalida, sigue pidiendo los datos
+    } while (entradaInvalida); // mientras la entrada sea invalida, sigue pidiendo los datos
     
     // solo se accede a estos cálculos con datos válidos
     perimetro = largo * 2 + ancho * 2;
