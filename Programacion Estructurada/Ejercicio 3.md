@@ -14,7 +14,7 @@ Main {
 
     do {
 
-        writeLine("Introduce el radio (cm): ");
+        writeLine("Introduce el radio (cm): "); // 10
         radio = (int)readLine();
 
         if (radio <= 0) {
@@ -28,10 +28,10 @@ Main {
 
         }
 
-    } while (isNegativo);
+    } while (isNegativo); // no repetirá ya que 10 > 0
 
-    circunferencia = 2 * pi * radio;
-    area = pi * radio * radio;
+    circunferencia = 2 * pi * radio; // 62.83185307
+    area = pi * radio * radio; // 314.15926535
 
     writeLine("Según el radio dado, el círculo tendrá:");
     writeLine("Circunferencia: " + circunferencia);
