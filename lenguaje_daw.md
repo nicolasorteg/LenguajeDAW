@@ -1,3 +1,5 @@
+Repositorio original del archivo: https://github.com/joseluisgs/Programacion-02-2025-2026.git
+
 ### Guía del Lenguaje DAW
 
 Esta guía proporciona una visión general de los conceptos básicos del lenguaje DAW, diseñado para ser sencillo y fácil de aprender.
