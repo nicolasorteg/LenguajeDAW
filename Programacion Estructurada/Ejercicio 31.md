@@ -1,7 +1,6 @@
 ### Simular el mecanismo de devolución de monedas de una máquina expendedora. El programa pregunta una cantidad de dinero en euros (ej. 3,47 €) y calcula la cantidad mínima de monedas necesarias para devolverla (ej. 1 de 2€, 1 de 1€, 2 de 20cts, etc.)
 
 ```bash
-
 Main {
 
     decimal dinero;
@@ -86,9 +85,4 @@ Main {
     writeLine("Monedas de 1 céntimo usadas: " + moneda1Centimo); // 0
     writeLine("El mínimo número de monedas posible para esa cantidad es: " + monedasTotales); // 12
 }
-
-
-
-
-
 ```
