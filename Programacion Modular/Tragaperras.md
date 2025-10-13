@@ -1,4 +1,4 @@
-### Implementar una simulación básica de una máquina tragaperras. 
+### Implementar una simulación de una máquina tragaperras. 
 
 ``` bash
 Main {
@@ -35,6 +35,15 @@ function bool verificarSaldo(decimal saldo) {
         return false; 
     }
     return true;
+}
+
+procedure imrimirListaPremios {
+
+    writeLine("Posibles premios:");
+    writeLine("- Si no coincide ningún número pierdes el dinero apostado.");
+    writeLine("- Si sólo coinciden 2 números, sean cuales sean recuperas un x1.5 de lo apostado.");
+    writeLine("- Si coinciden los 3 números recuperas un x3 de lo apostado excepto si los números que coinciden son 777.");
+    writeLine("- Si coinciden  7 7 7 recuperas un x10 de lo apostado.");
 }
 
 
