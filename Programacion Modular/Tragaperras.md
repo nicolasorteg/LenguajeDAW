@@ -2,8 +2,9 @@
 
 ``` bash
 
-/* este programa aún no gestiona las entradas de datos con 'try catch'
-   por lo que si se introduce texto donde espera números el programa fallará 
+/* 
+este programa aún no gestiona las entradas de datos con 'try catch'
+por lo que si se introduce texto donde espera números el programa fallará 
 */
 
 using Math; // importamos la librería math
