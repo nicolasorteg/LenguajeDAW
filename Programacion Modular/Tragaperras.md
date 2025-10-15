@@ -110,6 +110,9 @@ procedure tirarTragaperras (ref decimal saldo) {
         int numeroAleatorio2 = Math.random(0, 9);
         int numeroAleatorio3 = Math.random(0, 9);
 
+
+        // lo que va a continuacion se podria meter en una funcion llamada calcularPremio a la que se le pasasen los numeros de la tirada
+
         // caso 777
         if ((numeroAleatorio1 == numeroAleatorio2) && (numeroAleatorio1 == numeroAleatorio3) && (numeroAleatorio1 == 7)) {
 
