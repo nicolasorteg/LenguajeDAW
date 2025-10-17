@@ -38,7 +38,7 @@ procedure ejecutarMenu(string participante) {
                 break;
 
             case 2:
-                simularJefe(participante);
+                simularJefe(participante, ref victorias);
                 break;
 
             case 3:
@@ -87,12 +87,12 @@ procedure simularRonda(string participante, ref int victorias) {
     if (puntuacionParticipante > puntuacionOrdenador) {
 
         victorias += 1;
-        writeLine("ENHORABUENA 😀 Has ganado. +1 Victoria");
+        writeLine("ENHORABUENA " + participante + " 😀 Has ganado. +1 Victoria");
         writeLine("Victorias totales: " + victorias);
 
     } else {
 
-        writeLine("Mala suerte 😔 Más suerte la próxima vez!");
+        writeLine("Mala suerte " + participante + " 😔 Más suerte la próxima vez!");
         writeLine("Victorias totales: " + victorias);
     }
 }
@@ -201,7 +201,7 @@ procedure verificarResultado(int opcionElegida, int opcionOrdenador, ref int pun
 
 
 
-
+procedure simularJefe()
 
 
 
